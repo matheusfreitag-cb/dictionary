@@ -1,0 +1,35 @@
+.grammarCardWrapper {
+  width: 100%;
+  height: auto;
+  border-left: 3px solid #a558197f;
+  border-right: 3px solid #a558197f;
+  border-bottom: 3px solid #a558197f;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grammarCard {
+  width: 100%;
+  font-family: "AB-Regular";
+  text-align: left;
+}
+
+.grammarCard__original {
+  font-size: 3rem;
+  font-family: "AB-ExtraBold";
+  font-style: italic;
+}
+
+.grammarCard__grammarClass {
+  font-size: 1.5rem;
+  font-family: "AB-Bold";
+  color: #695d4b;
+}
+
+.grammarCard__description {
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: black;
+}

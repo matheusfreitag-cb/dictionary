@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  background-color: #d3ab70;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.headerColumnTitle {
+  text-align: left;
+  padding: 8px;
+  font-size: 1.5rem;
+  font-family: "AB-ExtraBold";
+}
+
+.headerColumnTitle:nth-child(1),
+.headerColumnTitle:nth-child(2) {
+  flex: 1;
+}
+
+.leftDottedBorder {
+  border-left: 1px dotted black;
+}
+
+.bottomSolidBorder {
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,46 @@
+.row {
+  display: flex;
+}
+
+.row:hover {
+  background-color: #a558197f;
+  cursor: pointer;
+}
+
+.activeRow {
+  background-color: #a558197f;
+}
+
+.cell {
+  text-align: left;
+  padding: 1rem 0.5rem;
+  font-family: "AB-Regular";
+  font-size: 1.2rem;
+}
+
+.cell:nth-child(1),
+.cell:nth-child(2) {
+  flex: 1;
+}
+
+.leftDashedBorder {
+  border-left: 1px dotted black;
+}
+
+/* Set initial styles for the details content */
+.details-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 10s ease-out; /* Animation duration and easing */
+}
+
+/* Set max-height to a large enough value to reveal the content */
+.details-open {
+  max-height: 200px; /* Adjust this value based on your content's height */
+}
+
+/* Optional: Add styles to improve readability or layout */
+.details-content div {
+  padding: 10px;
+  background-color: #f0f0f0;
+}

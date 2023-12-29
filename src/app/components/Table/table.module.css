@@ -1,0 +1,11 @@
+.tableWrapper {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.table {
+  width: 100%;
+  max-width: 996px;
+  border-collapse: collapse;
+}
